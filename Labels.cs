@@ -28,6 +28,7 @@ namespace Lotto_wpf
         public async Task<int> GenerateRandomNumberAsync(TextBlock eredmeny)
         {
             TempRND = 0;
+            
             for (int i = 0; i < 20; i++)
             {
                 TempRND = Rnd.Next(1, 101);

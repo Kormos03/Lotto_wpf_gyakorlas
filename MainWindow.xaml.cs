@@ -33,6 +33,7 @@ namespace Lotto_wpf
 
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
+            sorsol.IsEnabled = false;
             count++;
             switch(count) 
             {
@@ -67,6 +68,7 @@ namespace Lotto_wpf
                     break;
 
             }
+            sorsol.IsEnabled = true;
         }
         public void sorbarendez()
         {
